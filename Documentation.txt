@@ -1,3 +1,54 @@
+Creating good documentation is essential for the success of any project, including IoT projects. Clear and comprehensive documentation ensures that your work is understandable, maintainable, and shareable with others. Here's how to make good documentation for your IoT project:
+
+1. **Project Overview:**
+   Start with an introduction that provides a high-level overview of the project. Explain the purpose, goals, and intended outcomes of the IoT project.
+
+2. **System Architecture:**
+   Describe the overall architecture of your IoT system. Include block diagrams or flowcharts to illustrate how different components interact with each other.
+
+3. **Hardware and Software Requirements:**
+   List all the hardware components (e.g., microcontrollers, sensors, actuators) and software tools (e.g., Arduino IDE, libraries) required to build the project.
+
+4. **Circuit Diagrams:**
+   Provide clear and well-documented circuit diagrams for each hardware component. Label all the connections and components for easy understanding.
+
+5. **Code Documentation:**
+   Comment your code thoroughly. Explain the purpose of each function, variable, and section of code. Use meaningful variable names and follow coding best practices.
+
+6. **Setup and Configuration:**
+   Detail the steps required to set up the hardware and software environment to run the IoT project. Include instructions for installing necessary libraries and dependencies.
+
+7. **Usage Instructions:**
+   Explain how to use your IoT project, including how to interact with the sensors, how to interpret the output, and how to operate any user interfaces or control mechanisms.
+
+8. **Data Format and Protocol:**
+   Document the format of the data transmitted or stored by your project. If you are using any communication protocols (e.g., MQTT, HTTP), explain how they work and how to interpret the data.
+
+9. **Troubleshooting and FAQ:**
+   Anticipate potential issues or challenges users might encounter and provide troubleshooting steps. Create an FAQ section to address common questions.
+
+10. **Testing and Validation Results:**
+    Include the results of testing and validation procedures. Present the data collected during testing and explain how you verified the functionality of your IoT project.
+
+11. **Challenges Faced:**
+    Document any challenges you encountered during the development process and how you overcame them. This can provide valuable insights for others who might work on similar projects.
+
+12. **References and Resources:**
+    List all the sources, websites, tutorials, and documentation you referred to during the project. This gives credit to the original authors and helps others learn more about the concepts.
+
+13. **Version Control and Revision History:**
+    If you are using version control (e.g., Git), include a brief revision history to track changes made to the project over time.
+
+14. **Visual Aids and Media:**
+    Use images, diagrams, and videos to enhance understanding. Visual aids can be particularly helpful in explaining complex concepts or demonstrating the project in action.
+
+15. **Organize and Format:**
+    Organize your documentation into sections or chapters for easy navigation. Use consistent formatting and styling to make the documentation visually appealing and easy to read.
+
+Remember that good documentation is an ongoing process. As you make updates or modifications to your project, be sure to update the documentation accordingly. Well-documented projects are not only beneficial for others but also for yourself in the future when you may need to revisit or expand your project.
+
+
+
 19th July, 2023
 	Implemented Gas Sensor: MQ-4, Gives range between 150-400 at room levels, increases the intensity if it detects 	perfume alchohol or smoke. 
 
@@ -15,4 +66,7 @@
 	BME280 not working. 
 
 27th July, 2023
-	Trying BME280 again.
+	Trying BME280 again. BME started working by giving a direct 3.3V line and and a direct ground. Also, soldered the BME the way it is supposed to be but the only fault now is it is giving weird values. 
+
+31st July, 2023
+	Working on modularizing the code, since it is getting bigger, would be much better to manage it if I make separate modules for each sensor. 
