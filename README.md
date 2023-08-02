@@ -20,6 +20,10 @@ The project's modular code structure makes it easy to incorporate additional sen
 
 - Arduino IDE installed.
 - Necessary libraries for each sensor installed. Links provided in individual sensor directories.
+- Build the circuit for these sensors.
+- Libraries: Adafruit BME280, Adafruit Unified Sensor, DHTLib, DallasTemperature, OneWire
+
+
 
 [![GitHub stars](https://img.shields.io/github/stars/alfen-yu/IoT-for-Agriculture.svg?style=social)](https://github.com/alfen-yu/IoT-for-Agriculture/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/alfen-yu/IoT-for-Agriculture.svg?style=social)](https://github.com/alfen-yu/IoT-for-Agriculture/network)
