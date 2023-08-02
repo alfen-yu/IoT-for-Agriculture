@@ -1,0 +1,23 @@
+\documentclass{article}
+
+\begin{document}
+
+\section*{Gas Sensor (MQ-4) - 19th July, 2023}
+Implemented the MQ-4 Gas Sensor, which provides a range between 150-400 at room levels. The sensor's sensitivity increases if it detects perfume, alcohol, or smoke. On 20th July, 2023, fixed the MQ4 code and circuit, setting the threshold at 500 ppm. If the gas concentration exceeds 500 ppm, the buzzer starts beeping, and a message displays that gas has been detected.
+
+\section*{Temperature and Humidity Sensor (DHT22) - 21st July, 2023}
+Implemented the DHT22 (AM2302) sensor, capable of measuring temperatures from -40°C to 125°C with an accuracy of ±0.5°C. The DHT22 sensor can also measure relative humidity from 0% to 100% with an accuracy of 2-5%. Observed that temperature readings change when taken outside the room, showing an increase of 5 units. However, when brought back inside, it took a long time to adjust to room temperature. For humidity, readings increased when the circuit was taken outside.
+
+\section*{BME280 Sensor - 26th July, 2023}
+Encountered issues with the BME280 sensor, but managed to get it working by providing a direct 3.3V line and a direct ground connection. Additionally, soldered the BME280 as per specifications, but it still provides strange values.
+
+\section*{BME280 Sensor Continued - 27th July, 2023}
+Continued troubleshooting the BME280 sensor. Successfully resolved previous issues, but the sensor is still giving unexpected values. Further investigation and calibration are required.
+
+\section*{Code Modularization - 31st July, 2023}
+Worked on modularizing the code to manage its increasing size effectively. Each sensor now has its own header (.h) and implementation (.cpp) files, all combined in the main .ino file for better organization and readability.
+
+\section*{DS18B20 Temperature Sensor - 1st August, 2023}
+Started working on the DS18B20 temperature sensor. Procured the waterproof variant, which requires a power supply of 3.3V to 5V and a 4.7k pull-up resistor between the data line and the microcontroller.
+
+\end{document}

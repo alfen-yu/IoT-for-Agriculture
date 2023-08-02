@@ -1,3 +1,5 @@
+// MQ4 Gas Sensor Integrated
+
 #ifndef MQ4_H
 #define MQ4_H
 

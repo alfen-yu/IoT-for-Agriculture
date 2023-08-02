@@ -4,6 +4,8 @@
 #define BME280SENSOR_H
 
 #include <Adafruit_BME280.h>  // Library for BME280 Sensor
+#include <Wire.h>
+#include <Adafruit_Sensor.h>
 
 struct BME280Sensor {
   Adafruit_BME280 bme;  // BME280 object

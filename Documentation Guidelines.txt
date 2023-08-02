@@ -46,27 +46,3 @@ Creating good documentation is essential for the success of any project, includi
     Organize your documentation into sections or chapters for easy navigation. Use consistent formatting and styling to make the documentation visually appealing and easy to read.
 
 Remember that good documentation is an ongoing process. As you make updates or modifications to your project, be sure to update the documentation accordingly. Well-documented projects are not only beneficial for others but also for yourself in the future when you may need to revisit or expand your project.
-
-
-
-19th July, 2023
-	Implemented Gas Sensor: MQ-4, Gives range between 150-400 at room levels, increases the intensity if it detects 	perfume alchohol or smoke. 
-
-20th July, 2023
-	Fixed the MQ4 Code and circuit. The threshold is 500 ppm, if it gets greater than 500, the buzzer starts beeping and it displays that gas has been detected. 
-
-21st July, 2023
-	Implementation of DHT22(AM2302), DHT22 can measure temperatures from -40 degrees Centigrade to 125 degrees centigrade with and accuracy of +-0.5
-	DHT22 sensor can measure relative humidity from 0 to 100% with an accuracy of 2-5%
-	Observations: Changes the temperature when taken outside the room, gave an increase of 5 unit, however, when it was brought back inside the it took a long time
-		      to adjust to room temperature. In case of humidity, it increased when the circuit was taken outside.
- 
-
-26th July, 2023
-	BME280 not working. 
-
-27th July, 2023
-	Trying BME280 again. BME started working by giving a direct 3.3V line and and a direct ground. Also, soldered the BME the way it is supposed to be but the only fault now is it is giving weird values. 
-
-31st July, 2023
-	Working on modularizing the code, since it is getting bigger, would be much better to manage it if I make separate modules for each sensor. 
