@@ -1,4 +1,4 @@
-# Arduino Environment Sensor Integration
+# Environmental Monitoring System with Arduino
 
 This repository showcases the integration of various sensors into Arduino projects, focusing on environmental monitoring. It includes support for the following sensors:
 
