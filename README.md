@@ -1,4 +1,4 @@
-# Arduino Environment Sensor Integration
+# Environmental Monitoring System with Arduino
 
 This repository showcases the integration of various sensors into Arduino projects, focusing on environmental monitoring. It includes support for the following sensors:
 
@@ -6,6 +6,7 @@ This repository showcases the integration of various sensors into Arduino projec
 - **DHT22 (AM2302):** Measures humidity and temperature accurately, suitable for various environments.
 - **BME280:** Measures pressure, temperature, altitude, and humidity, ideal for comprehensive environmental data.
 - **DS18B20 Waterproof Sensor:** Monitors temperature of water and soil, useful for ecological and agricultural studies.
+- **AJ-SR04M Ultrasonic Sensor:** Waterproof sensor to measure the distance between an object and the sensor using ultrasonic rays with high accuracy and sustainibility. 
 
 The project's modular code structure makes it easy to incorporate additional sensors, perfect for customizing Arduino-based environmental solutions. Whether you're into DIY projects, education, or research, this repository provides a solid foundation to start from.
 
