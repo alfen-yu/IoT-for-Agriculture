@@ -1,6 +1,67 @@
 \documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=red]{hyperref}
 
 \begin{document}
+
+\title{Indus Delta Capital - Delta Blue Carbon - I, Internet of Things Project}
+\author{Documented by Yousuf Uyghur}
+\date{August 2023}
+
+\maketitle
+
+\begin{center}
+    \includegraphics[scale=0.1]{./Images/logo.png}
+\end{center}
+
+\pagebreak
+
+\section{Project Overview}
+
+\subsection{Description}
+
+Welcome to the Mangroves Monitoring System Documentation, a vital component of the \href{www.deltabluecarbon.com}{Delta Blue Carbon - I} (DBC-I) project under the umbrella of Indus Delta Capital. DBC-1 integrates the Internet of Things (IoT) to revolutionize environmental insights. Our goal is to implement a real-time analysis across a spectrum of environmental factors. We're dedicated to tracking mangrove growth and its ecosystem, conducting robust research and data analysis to reveal growth patterns.
+
+Our system covers an extensive range of measurements: pressure, altitude, atmospheric and aquatic temperature, methane levels, humidity, and tidal height. Powered by rugged, waterproof industrial-grade sensors, our solution thrives even in the harshest conditions, ensuring accurate and dependable data collection.
+
+\subsection{Key Features}
+\begin{itemize}
+    \item Real-time temperature, humidity, and pressure monitoring \- with the BME280 sensor.
+    \item Accurate temperature measurements in water and soil using the DS18B20 waterproof sensor.
+    \item Detection of methane gas concentrations with the MQ-4 gas sensor.
+    \item Precise distance measurements with the JSN-SR04 ultrasonic sensor.
+    \item Reliable humidity and temperature data collection with the DHT22 sensor.
+\end{itemize}
+
+\section{System Architecture}
+
+\subsection{Hardware}
+
+The Environmental Monitoring System comprises the following hardware components:
+
+\begin{itemize}
+    \item Arduino Uno
+    \item BME280 Sensor
+    \item DHT22 Sensor
+    \item DS18B20 Waterproof Sensor
+    \item JSN-SR04 Ultrasonic Sensor
+    \item MQ-4 Gas Sensor
+    \item AJ-SR04M Ultrasonic Sensor
+\end{itemize}
+
+\subsection{Software}
+
+The software components of the system include:
+
+\begin{itemize}
+    \item Arduino IDE for code development
+    \item Libraries for sensor communication (e.g., OneWire, DallasTemperature)
+    \item Custom code modules for data collection and analysis
+    \item Cloud integration (future work)
+
+\end{itemize}
+
+
 
 \section*{Gas Sensor (MQ-4) - 19th July, 2023}
 Implemented the MQ-4 Gas Sensor, which provides a range between 150-400 at room levels. The sensor's sensitivity increases if it detects perfume, alcohol, or smoke. On 20th July, 2023, fixed the MQ4 code and circuit, setting the threshold at 500 ppm. If the gas concentration exceeds 500 ppm, the buzzer starts beeping, and a message displays that gas has been detected.
@@ -21,6 +82,6 @@ Worked on modularizing the code to manage its increasing size effectively. Each 
 Started working on the DS18B20 temperature sensor. Procured the waterproof variant, which requires a power supply of 3.3V to 5V and a 4.7k pull-up resistor between the data line and the microcontroller.
 
 \section*{AJ-SR04 Ultrasonic Sensor - 7th August, 2023}
-The AJ-SR04M is a waterproof ultrasonic sensor efficient for using outside in harsh conditions. We are using it to measure the tidal height of the water. I have implemented AJSR04 as of today, it is workng efficiently. Now, I have one more sensor left to implement. The future work also includes, PCB designing, cloud and networking integration. 
+The AJ-SR04M is a waterproof ultrasonic sensor efficient for using outside in harsh conditions. We are using it to measure the tidal height of the water. I have implemented AJSR04 as of today, it is working efficiently. Now, I have one more sensor left to implement. The future work also includes, PCB designing, cloud and networking integration.
 
 \end{document}
